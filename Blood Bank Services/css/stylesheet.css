@@ -1,0 +1,234 @@
+header{
+	background-color:#B30000;
+	text-align: center;
+	padding: 5px;
+	color: #F2F2F2;
+	font-size: 30px;
+	font-family: Timesnewroman;
+}
+
+body {
+	background-color:#F2F2F2;
+	font-family: arial;
+	margin: 0;
+}
+
+.curnt 
+{
+    color: #B30000;
+    border-radius: 10px;
+}
+
+div.flex-container{
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	width: 100%;
+}
+
+div.flex-container > div {
+  margin: 10px;
+}
+.blooddonor {
+	width: 350px;
+	}
+.bloodlogo {
+	margin: auto;
+	display: flex;
+}
+
+.bloodbags {
+	width: 100%;
+	margin: auto;
+	display: flex;
+}
+.bloodtypes {
+	width: 100%;
+	margin: auto;
+	display: flex;
+}
+.shortage {
+	color:#B30000;
+}
+
+.nurse {
+	width: 100%;
+	margin: auto;
+	display: flex;
+}
+nav ul{
+	list-style:none;
+    margin:0px;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+	background-color: #D3D3D3;
+}
+nav li{
+	padding: 10px 20px;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+nav a{
+	text-decoration: none;
+	color:black;
+}
+
+nav li a:hover{ 
+	background-color: #B30000;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.container 
+		{
+	width: min(1100px, 94%); 
+	margin: 0 auto; 
+	}
+	
+.btn {
+    display: inline-block;
+    background-color: #B30000;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #005f8c;
+}
+.google{
+	margin: 10px;
+	display: flex;
+}
+
+.abt-container 
+{
+	margin: 10px;
+}
+
+.testimonials-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+}
+
+.tes-container {
+	text-align: center;
+}
+
+.testimonial {
+	justify-content: center;
+	text-align: center;
+}
+
+
+.avatar {
+	display: flex;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%
+}
+
+.form-grid { 
+	display:block; 
+	background:white; 
+	padding:10px; 
+	border-radius:8px; 
+	margin:10px 0; 
+}
+
+.form-grid fieldset 
+{ 
+	border:1px solid #A9A9A9;
+	padding:15px; 
+	margin-bottom:15px; 
+	border-radius:6px; 
+}
+
+.form-grid legend { 
+	font-weight:700; 
+	padding:10px; 
+}
+.form-grid label 
+		{ 
+	display:block; 
+	margin-top:13px; 
+	font-size:14px; 
+}
+.form-grid input, .form-grid select, .form-grid textarea { 
+	width:100%; 
+	padding:13px; 
+	margin-top:6px; 
+	border:1px solid #A9A9A9; 
+	border-radius:6px; 
+}
+
+.checkbox-group 
+{ display:flex; 
+gap:16px; 
+flex-wrap:wrap; 
+margin-top:8px; 
+}
+
+.form-actions 
+{ 
+display:flex; 
+gap:16px; 
+margin-top:12px; 
+}
+.login-shortcut 
+{
+	margin: 10px;
+}
+.site-footer 
+{ margin-top:18px; 
+padding:10px; 
+background:#D3D3D3; 
+border-top:1px solid #e6e6e6; 
+text-align: center;
+}
+
+summary 
+{
+	color:#B30000;
+}
+
+details > summary {
+  padding: 4px;
+  width: 200px;
+  background-color: #eeeeee;
+  border: none;
+  cursor: pointer;
+}
+
+details > p {
+  background-color: #eeeeee;
+  padding: 4px;
+  margin: 0;
+}
+
+.thankyou 
+{
+	text-align: center;
+}
+
+.container-footer 
+{ display:flex; 
+justify-content:center;
+gap:16px; 
+align-items:center; 
+background:#D3D3D3;
+text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+ 
+ .column {
+    width: 100%;
+}
+}
